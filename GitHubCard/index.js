@@ -3,6 +3,8 @@
     (replacing the placeholder with your Github name):
     https://api.github.com/users/<your name>
 */
+const URL = 'https://api.github.com/users/bporch84'
+console.log(axios.get(URL))
 
 /*
   STEP 2: Inspect and study the data coming back, this is YOUR

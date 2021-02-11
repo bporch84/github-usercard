@@ -32,6 +32,57 @@ console.log(axios.get(URL))
 
 const followersArray = [];
 
+function cardMaker(data){
+
+  const outerDiv = document.createElement("div");
+  outerDiv.classList.add("card");
+
+  const img = document.createElement("img");
+  img.setAttribute("src", "https://3.bp.blogspot.com/_ecNZSVR4JCI/TQ9qtCTk6RI/AAAAAAAAAak/iC_ZenIEDi0/s1600/24738.jpg");
+  outerDiv.appendChild(img);
+
+  const innerDiv = document.createElement("div");
+  innerDiv.classList.add("card-info");
+  outerDiv.appendChild(innerDiv);
+
+  const h3 = document.createElement("h3");
+  h3.classList.add("name");
+  h3.textContent = "This is the h3";
+  innerDiv.appendChild(h3);
+
+  const p1 = document.createElement("p");
+  p1.classList.add("username");
+  p1.textContent = "This is the p1 for username";
+  innerDiv.appendChild(p1);
+
+  const p2 = document.createElement("p");
+  p2.textContent = "This is the p2 for location";
+  innerDiv.appendChild(p2);
+
+  const p3 = document.createElement("p");
+  p3.textContent = "This is the p3 for profile";
+  innerDiv.appendChild(p3);
+
+  const link = document.createElement("a");
+  link.setAttribute("href", "http:www.genius.com");
+  link.textContent = "This is the link";
+  p3.appendChild(link);
+
+  const p4 = document.createElement("p");
+  p4.textContent = "This is the p1 followers";
+  innerDiv.appendChild(p4);
+
+  const p5 = document.createElement("p");
+  p5.textContent = "This is the p1 following";
+  innerDiv.appendChild(p5);
+
+  const p6 = document.createElement("p");
+  p6.textContent = "This is the p1 bio";
+  innerDiv.appendChild(p6);
+  
+  return outerDiv;
+}
+
 /*
   STEP 3: Create a function that accepts a single object as its only argument.
     Using DOM methods and properties, create and return the following markup:

@@ -31,7 +31,7 @@ Follow these steps to set up and work on your project:**
 
 <!-- Follow these steps for completing your project.**
 
- [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request** --> -->
+ [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request** -->
 
 <!-- ### Project Setup
 
@@ -46,24 +46,24 @@ Follow these steps to set up and work on your project:**
  [x] Include the script element linking the `axios` library in your HTML.
  [x] If you do not remember the code you can find it [here](https://github.com/axios/axios). -->
 
-#### Option 2 (installing Axios with npm)
+<!-- #### Option 2 (installing Axios with npm)
 
-* [ ] Navigate to the root of the project with your command line.
-* [ ] Run `npm install axios` to download the dependency (it will be added to the `package.json` file).
-* [ ] At the top of the `GitHubCard/index.js` file, type `import axios from 'axios';`
+ [ ] Navigate to the root of the project with your command line.
+ [ ] Run `npm install axios` to download the dependency (it will be added to the `package.json` file).
+ [ ] At the top of the `GitHubCard/index.js` file, type `import axios from 'axios';` -->
 
-### Part 1: Requesting Data from the GitHub API
+<!-- ### Part 1: Requesting Data from the GitHub API
 
-* [ ] Follow the instructions found in the `GitHubCard/index.js` file to request data from the GitHub API.
+ [x] Follow the instructions found in the `GitHubCard/index.js` file to request data from the GitHub API. -->
 
-### Part 2: Create the component function
+<!-- ### Part 2: Create the component function
 
 * Once you are receiving data from the GitHub API, take some time to study the data and the information it is giving you. You will create the HTML template you see in the GitHubCard/index.js file and plugging in the dynamic data you are getting from the GitHub API.
-* Once you complete the component, create a component based on your profile and add it to the DOM.
+* Once you complete the component, create a component based on your profile and add it to the DOM. -->
 
-### Part 3: Your Friends
+<!-- ### Part 3: Your Friends
 
-* After you have successfully added your own card to the DOM, we will get a list of your followers and programmatically add cards for them as well. Follow the instructions in GitHubCard/index.js.
+* After you have successfully added your own card to the DOM, we will get a list of your followers and programmatically add cards for them as well. Follow the instructions in GitHubCard/index.js. -->
 
 ### Stretch Goals
 
